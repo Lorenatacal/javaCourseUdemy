@@ -5,6 +5,7 @@ public class Main {
     public static void main(String[] args) {
         getDurationString(65, 45);
         getDurationString(3945);
+        System.out.println(getDurationString(-41));
     }
 
     public static String getDurationString(int minutes, int seconds) {
